@@ -1,0 +1,86 @@
+name: Android
+
+on:
+  push:
+    branches: ["main"]
+    tags: ["android-v*"]
+    paths:
+      - "keloray-android/**"
+      - ".github/workflows/android.yml"
+  pull_request:
+    paths:
+      - "keloray-android/**"
+      - ".github/workflows/android.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Test & build APK
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: keloray-android
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Unit and UI tests
+        run: ./gradlew testDebugUnitTest
+
+      - name: Build APK
+        run: ./gradlew assembleRelease
+
+      - name: Name the APK
+        run: |
+          version=$(grep -m1 'versionName' app/build.gradle.kts | sed -E 's/.*"(.*)".*/\1/')
+          cp app/build/outputs/apk/release/app-release.apk "kelofred-${version}-${GITHUB_SHA::7}.apk"
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: kelofred-apk
+          path: keloray-android/kelofred-*.apk
+          if-no-files-found: error
+
+      - name: Upload test screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ui-screenshots
+          path: keloray-android/app/build/screenshots
+          if-no-files-found: ignore
+
+  release:
+    name: Attach APK to release
+    if: startsWith(github.ref, 'refs/tags/android-v')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download APK
+        uses: actions/download-artifact@v4
+        with:
+          name: kelofred-apk
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: kelofred-*.apk
+          generate_release_notes: true

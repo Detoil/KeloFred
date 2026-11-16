@@ -9,6 +9,10 @@
   (including `thunderstorm` and a research-backed tropical-sun tracker),
   schedules/automations, and a REST API + web dashboard. Research notes for the
   sun tracker live in [`research/`](./research/).
+- **[`keloray-android/`](./keloray-android/)**: a native Android app for the
+  same lights. It signs in to the Gizwits cloud directly (scenes and schedules
+  run on the phone) or acts as a remote for a `keloray serve` server. It
+  includes a coral channel mapper. CI builds an installable APK on every push.
 
 ## Status
 

@@ -1,0 +1,1172 @@
+{
+ "sun": [
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    4,
+    0
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 0,
+    "lum": 1,
+    "temperature": 0
+   }
+  },
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    6,
+    50
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 37,
+    "temperature": 2,
+    "hsv": {
+     "h": 220,
+     "s": 20,
+     "v": 37
+    }
+   }
+  },
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    7,
+    10
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 63,
+    "temperature": 11,
+    "hsv": {
+     "h": 30,
+     "s": 33,
+     "v": 63
+    }
+   }
+  },
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    7,
+    30
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 79,
+    "temperature": 26,
+    "hsv": {
+     "h": 30,
+     "s": 2,
+     "v": 79
+    }
+   }
+  },
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    9,
+    0
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 94,
+    "temperature": 83
+   }
+  },
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    13,
+    0
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 100,
+    "temperature": 100
+   }
+  },
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    18,
+    30
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 84,
+    "temperature": 40
+   }
+  },
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    19,
+    15
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 48,
+    "temperature": 5,
+    "hsv": {
+     "h": 220,
+     "s": 7,
+     "v": 48
+    }
+   }
+  },
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    19,
+    30
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 27,
+    "temperature": 0,
+    "hsv": {
+     "h": 220,
+     "s": 27,
+     "v": 27
+    }
+   }
+  },
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    19,
+    45
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 0,
+    "lum": 1,
+    "temperature": 0
+   }
+  },
+  {
+   "dt": [
+    2026,
+    6,
+    28,
+    23,
+    0
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 0,
+    "lum": 1,
+    "temperature": 0
+   }
+  },
+  {
+   "dt": [
+    2026,
+    12,
+    21,
+    5,
+    40
+   ],
+   "loc": {
+    "latitude_deg": -33.92,
+    "longitude_deg": 18.42,
+    "utc_offset_hours": 2.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 58,
+    "temperature": 10,
+    "hsv": {
+     "h": 30,
+     "s": 36,
+     "v": 58
+    }
+   }
+  },
+  {
+   "dt": [
+    2026,
+    12,
+    21,
+    12,
+    0
+   ],
+   "loc": {
+    "latitude_deg": -33.92,
+    "longitude_deg": 18.42,
+    "utc_offset_hours": 2.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 100,
+    "temperature": 100
+   }
+  },
+  {
+   "dt": [
+    2026,
+    12,
+    21,
+    20,
+    10
+   ],
+   "loc": {
+    "latitude_deg": -33.92,
+    "longitude_deg": 18.42,
+    "utc_offset_hours": 2.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 39,
+    "temperature": 2,
+    "hsv": {
+     "h": 220,
+     "s": 19,
+     "v": 39
+    }
+   }
+  },
+  {
+   "dt": [
+    2026,
+    3,
+    1,
+    9,
+    0
+   ],
+   "loc": {
+    "latitude_deg": -33.92,
+    "longitude_deg": 18.42,
+    "utc_offset_hours": 2.0
+   },
+   "lux_scale": 1.0,
+   "cct_bump_k": 0.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 95,
+    "temperature": 85
+   }
+  },
+  {
+   "dt": [
+    2026,
+    12,
+    2,
+    13,
+    0
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 0.6,
+   "cct_bump_k": 600.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 97,
+    "temperature": 100
+   }
+  },
+  {
+   "dt": [
+    2026,
+    12,
+    2,
+    7,
+    15
+   ],
+   "loc": {
+    "latitude_deg": 1.35,
+    "longitude_deg": 103.82,
+    "utc_offset_hours": 8.0
+   },
+   "lux_scale": 0.6,
+   "cct_bump_k": 600.0,
+   "frame": {
+    "onOff": 1,
+    "lum": 72,
+    "temperature": 34,
+    "hsv": {
+     "h": 30,
+     "s": 12,
+     "v": 72
+    }
+   }
+  }
+ ],
+ "elevation": [
+  {
+   "doy": 1,
+   "hour": 12.0,
+   "lat": 1.35,
+   "lon": 103.82,
+   "utc": 8.0,
+   "elev": 60.590005983255836
+  },
+  {
+   "doy": 172,
+   "hour": 7.25,
+   "lat": 1.35,
+   "lon": 103.82,
+   "utc": 8.0,
+   "elev": 2.5900092004582294
+  },
+  {
+   "doy": 355,
+   "hour": 12.5,
+   "lat": -33.92,
+   "lon": 18.42,
+   "utc": 2.0,
+   "elev": 79.07252853573846
+  },
+  {
+   "doy": 80,
+   "hour": 18.9,
+   "lat": 51.5,
+   "lon": -0.12,
+   "utc": 0.0,
+   "elev": -7.474986411797006
+  },
+  {
+   "doy": 200,
+   "hour": 0.0,
+   "lat": 64.1,
+   "lon": -21.9,
+   "utc": 0.0,
+   "elev": -3.101519443888344
+  }
+ ],
+ "reef": [
+  {
+   "elev": -12,
+   "kw": {},
+   "frame": {
+    "onOff": 0,
+    "channels": {
+     "cw": 0,
+     "rb": 0,
+     "sb": 0,
+     "uv1": 0,
+     "uv2": 0,
+     "dr": 0,
+     "g": 0
+    }
+   }
+  },
+  {
+   "elev": -12,
+   "kw": {
+    "moonlight": 20
+   },
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 0,
+     "rb": 20,
+     "sb": 12,
+     "uv1": 0,
+     "uv2": 0,
+     "dr": 0,
+     "g": 0
+    }
+   }
+  },
+  {
+   "elev": -2,
+   "kw": {},
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 29,
+     "rb": 18,
+     "sb": 14,
+     "uv1": 2,
+     "uv2": 2,
+     "dr": 38,
+     "g": 11
+    }
+   }
+  },
+  {
+   "elev": 0.5,
+   "kw": {},
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 36,
+     "rb": 22,
+     "sb": 17,
+     "uv1": 3,
+     "uv2": 3,
+     "dr": 47,
+     "g": 14
+    }
+   }
+  },
+  {
+   "elev": 2,
+   "kw": {},
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 45,
+     "rb": 28,
+     "sb": 21,
+     "uv1": 4,
+     "uv2": 4,
+     "dr": 58,
+     "g": 17
+    }
+   }
+  },
+  {
+   "elev": 10,
+   "kw": {},
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 53,
+     "rb": 39,
+     "sb": 30,
+     "uv1": 10,
+     "uv2": 10,
+     "dr": 66,
+     "g": 21
+    }
+   }
+  },
+  {
+   "elev": 30,
+   "kw": {},
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 46,
+     "rb": 75,
+     "sb": 59,
+     "uv1": 48,
+     "uv2": 45,
+     "dr": 35,
+     "g": 24
+    }
+   }
+  },
+  {
+   "elev": 50,
+   "kw": {},
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 40,
+     "rb": 99,
+     "sb": 79,
+     "uv1": 74,
+     "uv2": 69,
+     "dr": 10,
+     "g": 25
+    }
+   }
+  },
+  {
+   "elev": 80,
+   "kw": {},
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 40,
+     "rb": 100,
+     "sb": 80,
+     "uv1": 75,
+     "uv2": 70,
+     "dr": 10,
+     "g": 25
+    }
+   }
+  },
+  {
+   "elev": 80,
+   "kw": {
+    "caps": {
+     "rb": 50,
+     "uv1": 60
+    }
+   },
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 40,
+     "rb": 50,
+     "sb": 80,
+     "uv1": 45,
+     "uv2": 70,
+     "dr": 10,
+     "g": 25
+    }
+   }
+  },
+  {
+   "elev": 45,
+   "kw": {
+    "intensity_scale": 0.55
+   },
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 22,
+     "rb": 54,
+     "sb": 43,
+     "uv1": 40,
+     "uv2": 37,
+     "dr": 7,
+     "g": 14
+    }
+   }
+  },
+  {
+   "elev": -3.0,
+   "kw": {
+    "moonlight": 8
+   },
+   "frame": {
+    "onOff": 1,
+    "channels": {
+     "cw": 0,
+     "rb": 8,
+     "sb": 5,
+     "uv1": 0,
+     "uv2": 0,
+     "dr": 0,
+     "g": 0
+    }
+   }
+  }
+ ],
+ "schemas": {
+  "packed": {
+   "entities": [
+    {
+     "attrs": [
+      {
+       "name": "onOff",
+       "data_type": "bool",
+       "type": "status_writable"
+      },
+      {
+       "name": "Brightness",
+       "data_type": "uint8",
+       "type": "status_writable",
+       "uint_spec": {
+        "min": 0,
+        "max": 255
+       }
+      },
+      {
+       "name": "Color_HSV",
+       "data_type": "binary",
+       "type": "status_writable"
+      },
+      {
+       "name": "Temp",
+       "data_type": "uint8",
+       "type": "status_writable",
+       "uint_spec": {
+        "min": 0,
+        "max": 1000
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "split": {
+   "attrs": [
+    {
+     "name": "Hue",
+     "type": "uint16",
+     "uint_spec": {
+      "min": 0,
+      "max": 359
+     }
+    },
+    {
+     "name": "Saturation",
+     "type": "uint8",
+     "uint_spec": {
+      "min": 0,
+      "max": 254
+     }
+    },
+    {
+     "name": "Value",
+     "type": "uint8",
+     "uint_spec": {
+      "min": 0,
+      "max": 254
+     }
+    },
+    {
+     "name": "lum",
+     "type": "uint8",
+     "uint_spec": {
+      "min": 1,
+      "max": 100
+     }
+    },
+    {
+     "name": "Power_Switch",
+     "data_type": "bool",
+     "type": "status_writable"
+    }
+   ]
+  },
+  "components": {
+   "attrs": [
+    {
+     "name": "color_h",
+     "data_type": "uint16",
+     "min": 0,
+     "max": 360
+    },
+    {
+     "name": "color_s",
+     "data_type": "uint8",
+     "min": 0,
+     "max": 100
+    },
+    {
+     "name": "color_v",
+     "data_type": "uint8",
+     "min": 0,
+     "max": 100
+    },
+    {
+     "name": "LUM",
+     "data_type": "uint8",
+     "min": 0,
+     "max": 1000
+    }
+   ]
+  },
+  "coral": {
+   "entities": [
+    {
+     "attrs": [
+      {
+       "name": "Switch",
+       "data_type": "bool",
+       "type": "status_writable"
+      },
+      {
+       "name": "Cold_white",
+       "data_type": "uint16",
+       "type": "status_writable",
+       "uint_spec": {
+        "min": 0,
+        "max": 1000
+       }
+      },
+      {
+       "name": "Royal_blue",
+       "data_type": "uint16",
+       "type": "status_writable",
+       "uint_spec": {
+        "min": 0,
+        "max": 1000
+       }
+      },
+      {
+       "name": "UV1",
+       "data_type": "uint8",
+       "type": "status_writable",
+       "uint_spec": {
+        "min": 0,
+        "max": 255
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "unknown": {
+   "foo": "bar",
+   "list": [
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ "normalize": [
+  {
+   "schema": "packed",
+   "attrs": {
+    "onOff": 1,
+    "lum": 50,
+    "temperature": 30,
+    "hsv": {
+     "h": 120,
+     "s": 50,
+     "v": 80
+    }
+   },
+   "out": {
+    "onOff": 1,
+    "Brightness": 126,
+    "Temp": 300,
+    "hsv": {
+     "h": 120,
+     "s": 50,
+     "v": 80
+    }
+   }
+  },
+  {
+   "schema": "packed",
+   "attrs": {
+    "lum": 1,
+    "temperature": 100
+   },
+   "out": {
+    "Brightness": 0,
+    "Temp": 1000
+   }
+  },
+  {
+   "schema": "packed",
+   "attrs": {
+    "hsv": {
+     "h": 359,
+     "s": 100,
+     "v": 100
+    }
+   },
+   "out": {
+    "hsv": {
+     "h": 359,
+     "s": 100,
+     "v": 100
+    }
+   }
+  },
+  {
+   "schema": "packed",
+   "attrs": {
+    "onOff": 0,
+    "Royal_blue": 500,
+    "Cold_white": 1000,
+    "UV1": 128
+   },
+   "out": {
+    "onOff": 0,
+    "Royal_blue": 500,
+    "Cold_white": 1000,
+    "UV1": 128
+   }
+  },
+  {
+   "schema": "packed",
+   "attrs": {
+    "mystery": 7
+   },
+   "out": {
+    "mystery": 7
+   }
+  },
+  {
+   "schema": "split",
+   "attrs": {
+    "onOff": 1,
+    "lum": 50,
+    "temperature": 30,
+    "hsv": {
+     "h": 120,
+     "s": 50,
+     "v": 80
+    }
+   },
+   "out": {
+    "Power_Switch": 1,
+    "lum": 50,
+    "temperature": 30,
+    "Hue": 120,
+    "Saturation": 127,
+    "Value": 203
+   }
+  },
+  {
+   "schema": "split",
+   "attrs": {
+    "lum": 1,
+    "temperature": 100
+   },
+   "out": {
+    "lum": 1,
+    "temperature": 100
+   }
+  },
+  {
+   "schema": "split",
+   "attrs": {
+    "hsv": {
+     "h": 359,
+     "s": 100,
+     "v": 100
+    }
+   },
+   "out": {
+    "Hue": 358,
+    "Saturation": 254,
+    "Value": 254
+   }
+  },
+  {
+   "schema": "split",
+   "attrs": {
+    "onOff": 0,
+    "Royal_blue": 500,
+    "Cold_white": 1000,
+    "UV1": 128
+   },
+   "out": {
+    "Power_Switch": 0,
+    "Royal_blue": 500,
+    "Cold_white": 1000,
+    "UV1": 128
+   }
+  },
+  {
+   "schema": "split",
+   "attrs": {
+    "mystery": 7
+   },
+   "out": {
+    "mystery": 7
+   }
+  },
+  {
+   "schema": "components",
+   "attrs": {
+    "onOff": 1,
+    "lum": 50,
+    "temperature": 30,
+    "hsv": {
+     "h": 120,
+     "s": 50,
+     "v": 80
+    }
+   },
+   "out": {
+    "onOff": 1,
+    "lum": 495,
+    "temperature": 30,
+    "color_h": 120,
+    "color_s": 50,
+    "color_v": 80
+   }
+  },
+  {
+   "schema": "components",
+   "attrs": {
+    "lum": 1,
+    "temperature": 100
+   },
+   "out": {
+    "lum": 0,
+    "temperature": 100
+   }
+  },
+  {
+   "schema": "components",
+   "attrs": {
+    "hsv": {
+     "h": 359,
+     "s": 100,
+     "v": 100
+    }
+   },
+   "out": {
+    "color_h": 359,
+    "color_s": 100,
+    "color_v": 100
+   }
+  },
+  {
+   "schema": "components",
+   "attrs": {
+    "onOff": 0,
+    "Royal_blue": 500,
+    "Cold_white": 1000,
+    "UV1": 128
+   },
+   "out": {
+    "onOff": 0,
+    "Royal_blue": 500,
+    "Cold_white": 1000,
+    "UV1": 128
+   }
+  },
+  {
+   "schema": "components",
+   "attrs": {
+    "mystery": 7
+   },
+   "out": {
+    "mystery": 7
+   }
+  },
+  {
+   "schema": "coral",
+   "attrs": {
+    "onOff": 1,
+    "lum": 50,
+    "temperature": 30,
+    "hsv": {
+     "h": 120,
+     "s": 50,
+     "v": 80
+    }
+   },
+   "out": {
+    "Switch": 1,
+    "lum": 50,
+    "temperature": 30,
+    "hsv": {
+     "h": 120,
+     "s": 50,
+     "v": 80
+    }
+   }
+  },
+  {
+   "schema": "coral",
+   "attrs": {
+    "lum": 1,
+    "temperature": 100
+   },
+   "out": {
+    "lum": 1,
+    "temperature": 100
+   }
+  },
+  {
+   "schema": "coral",
+   "attrs": {
+    "hsv": {
+     "h": 359,
+     "s": 100,
+     "v": 100
+    }
+   },
+   "out": {
+    "hsv": {
+     "h": 359,
+     "s": 100,
+     "v": 100
+    }
+   }
+  },
+  {
+   "schema": "coral",
+   "attrs": {
+    "onOff": 0,
+    "Royal_blue": 500,
+    "Cold_white": 1000,
+    "UV1": 128
+   },
+   "out": {
+    "Switch": 0,
+    "Royal_blue": 500,
+    "Cold_white": 1000,
+    "UV1": 128
+   }
+  },
+  {
+   "schema": "coral",
+   "attrs": {
+    "mystery": 7
+   },
+   "out": {
+    "mystery": 7
+   }
+  },
+  {
+   "schema": "unknown",
+   "attrs": {
+    "onOff": 1,
+    "lum": 50,
+    "temperature": 30,
+    "hsv": {
+     "h": 120,
+     "s": 50,
+     "v": 80
+    }
+   },
+   "out": {
+    "onOff": 1,
+    "lum": 50,
+    "temperature": 30,
+    "hsv": {
+     "h": 120,
+     "s": 50,
+     "v": 80
+    }
+   }
+  },
+  {
+   "schema": "unknown",
+   "attrs": {
+    "lum": 1,
+    "temperature": 100
+   },
+   "out": {
+    "lum": 1,
+    "temperature": 100
+   }
+  },
+  {
+   "schema": "unknown",
+   "attrs": {
+    "hsv": {
+     "h": 359,
+     "s": 100,
+     "v": 100
+    }
+   },
+   "out": {
+    "hsv": {
+     "h": 359,
+     "s": 100,
+     "v": 100
+    }
+   }
+  },
+  {
+   "schema": "unknown",
+   "attrs": {
+    "onOff": 0,
+    "Royal_blue": 500,
+    "Cold_white": 1000,
+    "UV1": 128
+   },
+   "out": {
+    "onOff": 0,
+    "Royal_blue": 500,
+    "Cold_white": 1000,
+    "UV1": 128
+   }
+  },
+  {
+   "schema": "unknown",
+   "attrs": {
+    "mystery": 7
+   },
+   "out": {
+    "mystery": 7
+   }
+  }
+ ]
+}

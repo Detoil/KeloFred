@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KeloFred</string>
+    <string name="channel_scenes">Running scenes</string>
+    <string name="channel_alerts">Alerts</string>
+    <string name="scene_starting">Starting scene…</string>
+    <string name="scene_running_one">Scene running</string>
+    <plurals name="scenes_running">
+        <item quantity="one">%1$d scene running</item>
+        <item quantity="other">%1$d scenes running</item>
+    </plurals>
+    <string name="stop_all">Stop all</string>
+    <string name="scene_blocked">Android blocked the scheduled %1$s from starting in the background. Open KeloFred to run it.</string>
+</resources>

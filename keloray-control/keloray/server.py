@@ -9,6 +9,7 @@ GET  /api/devices                      list bound devices (+ online state)
 GET  /api/devices/{did}                latest datapoint values
 GET  /api/devices/{did}/discover       datapoint schema + state (find channels)
 POST /api/devices/{did}/control        body: {"attrs": {...}}  raw write
+                                       (a "channels" object is mapped via config)
 POST /api/devices/{did}/power          body: {"on": true}
 POST /api/devices/{did}/scene          body: {"scene": "...", "params": {...}}
 POST /api/devices/{did}/scene/stop     stop the running scene
@@ -153,8 +154,11 @@ async def discover(did: str):
 @app.post("/api/devices/{did}/control")
 async def control(did: str, body: ControlBody):
     await state.runner.stop(did)  # manual control overrides any running scene
+    # A "channels" object (logical coral channels, 0..100) is expanded onto the
+    # fixture's real datapoints with the configured channel map, as scenes are.
+    attrs = state.runner._expand(body.attrs)
     try:
-        return {"ok": True, "result": await state.client.control(did, body.attrs)}
+        return {"ok": True, "result": await state.client.control(did, attrs)}
     except GizwitsError as e:
         raise _wrap(e)
 
