@@ -184,6 +184,12 @@ GET/POST/DELETE /api/schedules
 The dashboard gives you power, brightness/temp sliders, a color picker, and
 one-click scenes per device.
 
+`/control` also accepts a `channels` object of logical coral channels
+(`{"attrs": {"onOff": 1, "channels": {"rb": 70, "uv1": 30}}}`), mapped to your
+fixture's datapoints with the `channels:` config, the same way `reef_*` scenes
+are. The Android app ([`../keloray-android/`](../keloray-android/)) uses this
+API in its "My server" mode.
+
 ## Automations / schedules
 
 Define rules in your config (`rules:`) or POST them at runtime:
